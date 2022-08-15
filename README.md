@@ -18,6 +18,13 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 
 ## Included Modules
 
+- `main.py`
+    - Graphically-interfaced front-end application
+    - May be operated by a User or the Developer/Admin
+- `file_reader.py`
+    - Raw back-end user-checker
+    - May be operated by the Developer/Admin to retrieve lost User Accounts
+
 ## Illustration Credits
 
 ## Footnotes & Security Issues
