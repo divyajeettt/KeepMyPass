@@ -23,6 +23,11 @@ Following is a list of Binary-Data Files used in this project, described along w
     - For storage of encryption and decryption keys for each user
     - Each entry in a record is a `mapping` of `chars`
     - Each record is a `tuple` of the format: `(encKey1, decKey1, encKey2, decKey2)`
+
+### Database 
+
+A MySQL Database called `project` is used in the project.
+
 ## Illustration Credits
 
 ## Footnotes (Security Issues)
