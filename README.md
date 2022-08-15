@@ -12,22 +12,15 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 
 ## Concepts Covered
 
-### Binary-Data File Handling through Python
-- Creating and using Binary Files
-- Fetching, adding, updating, searching, and deleting records from Binary Files
+- Binary-Data File Handling through Python
+- MySQL Database Management through Python-MySQL integration
+- Creating Graphical-User Interfaces
 
-### Database Management through Python
-- Creating and using Databases
-- Creating Tables inside Databases
-- Fetching, adding, updating, searching, and deleting tuples from Tables
-
-### Creating Graphical-User Interfaces
-- Creating attractive GUIs using `tkinter` and `tkinter.ttk`
-- Graphical interpretation of data using `matplotlib.pyplot`
-- Managing and using Image files using `PIL (Pillow)`
+## Included Modules
 
 ## Illustration Credits
 
-## Footnotes (Security Issues)
+## Footnotes & Security Issues
+- At most 2 windows and 1 graph can be opened at a time
 
 ## Future Plans
