@@ -22,7 +22,7 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
     - Passwords and related information
     - Contacts
     - Events
-- The Password-Protected 'Admin-Mode' can be used to search through all Vaults at once[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues)
+- The Password-Protected 'Admin-Mode' can be used to search through all Vaults at once[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues)
 
 ## Illustration Credits 
 *All the illustrations used have been taken from [LastPass](https://www.lastpass.com/), and I claim that I, in no way, can and will use my project for commercial purposes whatsoever with these illustrations.*
@@ -39,13 +39,13 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 
 ### Password-Generation Feature
 
-> The Secure-Vault contains a Password-Generator that generates (pseudo)random passwords.[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues) The passwords are generated as per the specifications chosen by the User.
+> The Secure-Vault contains a Password-Generator that generates (pseudo)random passwords.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues) The passwords are generated as per the specifications chosen by the User.
 
 ### (Pseudo) Security Features
 
 > The following steps have been taken to store the User's data securely:
-> - Binary Files include fake data records.[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues)
-> - The data being written into Binary File is encrypted twice.[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues)
+> - Binary Files include fake data records.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues)
+> - The data being written into Binary File is encrypted twice.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues)
 > - Only one User can log in at a time.
 > - All data is stored in the database in encrypted format, and is decrypted only if the User wishes to see it.
 > - The keys for Encryption and Decryption are unique for all Users.
