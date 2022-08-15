@@ -16,18 +16,58 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 - MySQL Database Management through Python-MySQL integration
 - Creating Graphical-User Interfaces
 
-## Included Modules
+## Usage Instructions
+- A User must first create an Account, i.e. sign up on the App
+- Once signed up, the User may log in to their Account, also calld the User's Secure Vault. There, they can store their:
+    - Passwords and related information
+    - Contacts
+    - Events
+- The Password-Protected 'Admin-Mode' can be used to search through all Vaults at once[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues)
 
-- `main.py`
-    - Graphically-interfaced front-end application
-    - May be operated by a User or the Developer/Admin
-- `file_reader.py`
-    - Raw back-end user-checker
-    - May be operated by the Developer/Admin to retrieve lost User Accounts
+## Illustration Credits 
+*All the illustrations used have been taken from [LastPass](https://www.lastpass.com/), and I claim that I, in no way, can and will use my project for commercial purposes whatsoever with these illustrations.*
 
-## Illustration Credits
+## Some features of the App
+
+### Information Feature
+
+-Help buttons are provided on various screens to help the user navigate through the App
+- The help-text is clear and easy to understand
+
+### "Forgot Password?" Feature
+
+- If a User forgets their MasterPassword, they can retrieve their lost Account using this feature
+
+### Password-Generation Feature
+
+- The Secure-Vault contains a Password-Generator that generates (pseudo)random passwords[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues)
+- The passwords are generated as per the specifications chosen by the user
+
+### (Pseudo) Security Features
+
+The following steps have been taken to store the User's data securely:
+- Binary Files include fake data records
+- The data being written into Binary File is encrypted twice[*](https://github.com/divyajeettt/keep-my-pass/edit/main/README.md#footnotes--security-issues)
+- Only one User can log in at a time
+- All data is stored in the database in encrypted format, and is decrypted only if the User wishes to see it
+- The keys for Encryption and Decryption are unique for all Users
 
 ## Footnotes & Security Issues
-- At most 2 windows and 1 graph can be opened at a time
+
+
+## Run
+Clone the repository on your device and navigate to the folder. 
+
+To run the main application, execute:
+
+```
+python3 main.py
+```
+
+To run the user-checker, execute:
+
+```
+python3 file_reader.py
+```
 
 ## Future Plans
