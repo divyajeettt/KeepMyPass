@@ -70,3 +70,4 @@ python3 main.py
 - The password to the Admin-Mode should <b>not</b> be hard-coded into the file
 - Branch the project, wherein the Admin-Mode will be removed
 - Make the code more modular
+- Better type-hinting
