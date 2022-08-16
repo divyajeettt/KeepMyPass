@@ -54,10 +54,8 @@ To run the main application, execute:
 python3 main.py
 ```
 
-To run the user-checker, execute:
-
-```
-python3 file_reader.py
-```
-
 ## Future Plans
+
+- Patch as many Security Issues as possible
+- Improve UI/design
+- Involvement of real encryption/decryption algorithms instead of character-mapping
