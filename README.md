@@ -46,7 +46,7 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 - Inclusion of fake records in the Binary Files does not really affect the security of actual data records.
 - Encrypting the data twice has no added benefit as compared to encrypting it only once.
 - The type-hints were added to all the functions at a later date
-- `user_checker.py` has only been added as a back-end functionality checker. It is not meant for use.
+- [`user_checker.py`](https://github.com/divyajeettt/KeepMyPass/blob/main/user_checker.py) has only been added as a back-end functionality checker. It is not meant for use.
 
 ## Illustration Credits 
 
@@ -54,7 +54,7 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 
 ## Run
 
-To use, clone the repository on your device, navigate to the folder, and execute:
+To run, clone the repository on your device, navigate to the folder, and execute:
 
 ```
 python3 main.py
