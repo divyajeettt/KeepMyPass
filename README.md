@@ -62,12 +62,10 @@ python3 main.py
 
 ## Future Plans & Scopes of Improvemnt
 
-- Patch as many Security Issues as possible
+- Patch as many Security Issues as possible and involvement of real encryption/decryption algorithms instead of character-mapping
 - Improve UI/design
-- Involvement of real encryption/decryption algorithms instead of character-mapping
-- Use of an alternate package to handle Binary Files
-- Implementation of an alternative to store encryption/decryption keys
+- Use of an alternate package to handle Binary Files or implementation of an alternative method to store encryption/decryption keys
 - The password to the Admin-Mode should <b>not</b> be hard-coded into the file
 - Branch the project, wherein the Admin-Mode will be removed
 - Make the code more modular
-- Better type-hinting
+- Better and more professional type-hinting
