@@ -45,6 +45,7 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 - The implemented encryption technique <b>solely</b> comprises of different character-mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project. 
 - Inclusion of fake records in the Binary Files does not really affect the security of actual data records.
 - Encrypting the data twice has no added benefit as compared to encrypting it only once.
+- The type-hints were added to all the functions at a later date
 - `user_checker.py` has only been added as a back-end functionality checker. It is not meant for use.
 
 ## Illustration Credits 
