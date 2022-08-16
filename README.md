@@ -40,9 +40,9 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 ## Footnotes & Security Issues
 
 - The project uses the <b>insecure</b> Python module `pickle`[³](https://docs.python.org/3/library/pickle.html). 
-- In the project, it has been mentioned (in several places) that the generated passwords are 'secure'. Do note that the passwords are however *[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*, although an element of the password-generation function does use `os.urandom()`[⁴](https://docs.python.org/3/library/os.html#os.urandom).
-- The Admin-Mode feature has only been added to the project to meet the requirements set by CBSE. In no way should the feature be taken advantage of. I, the developer, completely understand that being able to access all the stored data, and providing its access to the end-users is <b>very problematic and unethical</b>.
-- The encryption technique implemented <b>solely</b> comprises of different types of character mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project. 
+- In the project, it has been mentioned (in several places) that the generated passwords are 'secure'. Do note that the passwords are however <b>*[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*</b>, although an element of the password-generation function does use `os.urandom()`[⁴](https://docs.python.org/3/library/os.html#os.urandom).
+- The Admin-Mode feature has only been added to the project to meet the requirements set by CBSE. In no way should the feature be taken advantage of. I, the developer, completely understand that being able to access all the stored data, and providing its access to the end-users is <b>problematic and unethical</b>.
+- The implemented encryption technique <b>solely</b> comprises of different types of character mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project. 
 - Inclusion of fake records in the Binary Files does not really affect the security of actual data records.
 - Encrypting the data twice has no added benefit as compared to encrypting it only once.
 - `file_reader.py` has only been added as a back-end functionality checker. It is not meant for use.
