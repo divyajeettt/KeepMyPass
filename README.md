@@ -8,8 +8,6 @@ KeepMyPass is a Password-Management System built in Python using MySQL integrati
 
 This project was done partly under assistance of my Grade-XII Computer Science teacher. It is them that I owe the success of my project to. According to them, this project meets all the requirements of Grade-XII Computer Science Project, 2020-21.
 
-It lays the foundations of all the core-concepts taught to us, and covers the topics in elaborate detail. The code is well-presented and easy to understand. The presentation of the app is crisp, and makes a user enjoy its execution.
-
 ## Concepts Covered
 
 - Binary-Data File Handling through Python
