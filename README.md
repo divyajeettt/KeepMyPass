@@ -35,15 +35,18 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 
 ### (Pseudo) Security Features
 
-> The following steps have been taken to store the User's data securely:
 > - Binary Files include fake data records.*
 > - The data being written into Binary File is encrypted twice.*
 > - Only one User can log in at a time.
 > - All data is stored in the database in encrypted format, and is decrypted only if the User wishes to see it.
-> - The keys for Encryption and Decryption are unique for all Users.
+> - The keys for encryption/decryption are unique for every User.
 
 ## Footnotes & Security Issues
 
+- The project uses the Python module `pickle`[¹](https://docs.python.org/3/library/pickle.html), which is <b>not secure</b>. 
+- In the project, it has been mentioned (in several places) that the generated passwords are 'secure'. Do note that the passwords are however *[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*, although an element of the password-generation function does use `os.urandom()`[²](https://docs.python.org/3/library/os.html#os.urandom).
+- Inclusion of fake records in the Binary Files does not really affect the security of actual data records.
+- Encrypting the data twice has no added benefit as compared to encrypting it only once.
 
 ## Run
 Clone the repository on your device and navigate to the folder. 
@@ -59,3 +62,5 @@ python3 main.py
 - Patch as many Security Issues as possible
 - Improve UI/design
 - Involvement of real encryption/decryption algorithms instead of character-mapping
+- Use of an alternate package to handle Binary Files
+- Implementation of an alternative to store encryption/decryption keys
