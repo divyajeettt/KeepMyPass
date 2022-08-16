@@ -68,3 +68,4 @@ python3 main.py
 - Implementation of an alternative to store encryption/decryption keys
 - The password to the Admin-Mode should <b>not</b> be hard-coded into the file
 - Branch the project, wherein the Admin-Mode will be removed
+- Make the code more modular
