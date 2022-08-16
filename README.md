@@ -8,8 +8,8 @@ KeepMyPass is a Password-Management System built in Python using MySQL integrati
 
 This project was done partly under assistance of my Grade-XII Computer Science teacher. It is them that I owe the success of my project to. According to them, this project meets all the requirements of Grade-XII Computer Science Project, 2020-21. It covers the following concepts in elaborate detail:
 - Binary-Data File Handling through Python
-- MySQL Database Management through Python-MySQL integration using `mysql.connector`[¹](https://pypi.org/project/mysql-connector-python/)
-- Creating Graphical-User Interfaces using `tkinter`[²](https://docs.python.org/3/library/tkinter.html)
+- MySQL Database Management through Python-MySQL integration using [`mysql.connector`](https://pypi.org/project/mysql-connector-python/)
+- Creating Graphical-User Interfaces using [`tkinter`](https://docs.python.org/3/library/tkinter.html)
 
 ## Some features of the App
 
@@ -39,10 +39,10 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 
 ## Footnotes & Security Issues
 
-- The project uses the <b>insecure</b> Python module `pickle`[³](https://docs.python.org/3/library/pickle.html). 
-- In the project, it has been mentioned (in several places) that the generated passwords are 'secure'. Do note that the passwords are however <b>*[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*</b>, although an element of the password-generation function does use `os.urandom()`[⁴](https://docs.python.org/3/library/os.html#os.urandom).
+- The project is vulenerable to insecure deserialization because it uses the Python module [`pickle`](https://docs.python.org/3/library/pickle.html). 
+- The project mentions (in several places) that the generated passwords are 'secure'. Do note that the passwords are however <b>*[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*</b>, although an element of the password-generation function does use [`os.urandom()`](https://docs.python.org/3/library/os.html#os.urandom).
 - The Admin-Mode feature has only been added to the project to meet the requirements set by CBSE. In no way should the feature be taken advantage of. I, the developer, completely understand that being able to access all the stored data, and providing its access to the end-users is <b>problematic and unethical</b>.
-- The implemented encryption technique <b>solely</b> comprises of different character-mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project. 
+- The implemented encryption technique <b>solely</b> comprises of different character-mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project.
 - Inclusion of fake records in the Binary Files does not really affect the security of actual data records.
 - Encrypting the data twice has no added benefit as compared to encrypting it only once.
 - The type-hints were added to all the functions at a later date
