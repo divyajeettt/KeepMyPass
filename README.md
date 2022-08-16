@@ -44,7 +44,7 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 
 ## Footnotes & Security Issues
 
-- The project uses the Python module `pickle`[³](https://docs.python.org/3/library/pickle.html), which is <b>not secure</b>. 
+- The project uses the <b>insecure</b> Python module `pickle`[³](https://docs.python.org/3/library/pickle.html). 
 - In the project, it has been mentioned (in several places) that the generated passwords are 'secure'. Do note that the passwords are however *[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*, although an element of the password-generation function does use `os.urandom()`[⁴](https://docs.python.org/3/library/os.html#os.urandom).
 - The Admin-Mode feature has only been added to the project to meet the requirements set by CBSE. In no way should the feature be taken advantage of. I, the developer, completely understand that being able to access all the stored data, and providing its access to the end-users is <b>very problematic and unethical</b>.
 - The encryption technique implemented <b>solely</b> comprises of different types of character mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project. 
