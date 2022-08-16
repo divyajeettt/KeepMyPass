@@ -16,14 +16,6 @@ It lays the foundations of all the core-concepts taught to us, and covers the to
 - MySQL Database Management through Python-MySQL integration
 - Creating Graphical-User Interfaces
 
-## Usage Instructions
-- A User must first create an Account, i.e. sign up on the App.
-- Once signed up, the User may log in to their Account, also calld the User's Secure Vault. There, they can store their:
-    - Passwords and related information
-    - Contacts
-    - Events
-- The Password-Protected 'Admin-Mode' can be used to search through all Vaults at once.*
-
 ## Illustration Credits 
 *All the illustrations used have been taken from [LastPass](https://www.lastpass.com/), and I claim that I, in no way, can and will use my project for commercial purposes whatsoever with these illustrations.*
 
