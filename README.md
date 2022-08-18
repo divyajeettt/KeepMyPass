@@ -23,19 +23,19 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 
 ### Password-Generation Feature
 
-> The Secure-Vault contains a Password-Generator that generates (pseudo)random passwords.*
+> The Secure-Vault contains a Password-Generator that generates (pseudo)random passwords.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues)
 
 ### (Pseudo) Security Features
 
-> - Binary Files include fake data records.*
-> - The data being written into Binary File is encrypted twice.*
+> - Binary Files include fake data records.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues)
+> - The data being written into Binary File is encrypted twice.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues)
 > - Only one User can log in at a time.
 > - All data is stored in the database in encrypted format, and is decrypted only if the User wishes to see it.
 > - The keys for encryption/decryption are unique for every User.
 
 ### Admin-Mode Feature
 
-> Using a password-protected Admin-Mode, a person can search through all User-Vaults at once.* The search can be used to search specific records or all records of a particular type.
+> Using a password-protected Admin-Mode, a person can search through all User-Vaults at once.[*](https://github.com/divyajeettt/KeepMyPass#footnotes--security-issues) The search can be used to search specific records or all records of a particular type.
 
 ## Footnotes & Security Issues
 
