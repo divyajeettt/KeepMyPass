@@ -40,10 +40,10 @@ This project was done partly under assistance of my Grade-XII Computer Science t
 ## Footnotes & Security Issues
 
 - The project is vulenerable to insecure deserialization because it uses the Python module [`pickle`](https://docs.python.org/3/library/pickle.html). 
-- The project mentions (in several places) that the passwords generated are 'secure'. Do note that the passwords are however <b>*[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)*</b>, although an element of the password-generation function does use [`os.urandom()`](https://docs.python.org/3/library/os.html#os.urandom).
-- The Admin-Mode feature has only been added to the project to meet the requirements set by CBSE. In no way should the feature be taken advantage of. I, the developer, completely understand that being able to access all the stored data, and providing its access to the end-users is <b>problematic and unethical</b>.
-- The implemented encryption technique <b>solely</b> comprises of different character-mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project.
-- Inclusion of fake records in the Binary Files <b>does not</b> really affect the security of actual data records.
+- The project mentions (in several places) that the passwords generated are 'secure'. Do note that the passwords are however ***[pseudorandom](https://en.wikipedia.org/wiki/Pseudorandomness#:~:text=A%20pseudorandom%20sequence%20of%20numbers,completely%20deterministic%20and%20repeatable%20process.)***, although an element of the password-generation function does use [`os.urandom()`](https://docs.python.org/3/library/os.html#os.urandom).
+- The Admin-Mode feature has only been added to the project to meet the requirements set by CBSE. In no way should the feature be taken advantage of. I, the developer, completely understand that being able to access all the stored data, and providing its access to the end-users is **problematic and unethical**.
+- The implemented encryption technique **solely** comprises of different character-mappings and [ROT-ciphers](https://en.wikipedia.org/wiki/ROT13), i.e. no real encryption algorithm has been used in the project.
+- Inclusion of fake records in the Binary Files **does not** really affect the security of actual data records.
 - Encrypting the data twice has no added benefit as compared to encrypting it only once.
 - The type-hints were added to all the functions at a later date.
 - [`user_checker.py`](https://github.com/divyajeettt/KeepMyPass/blob/main/user_checker.py) has only been added as a back-end functionality checker. It is not meant for use.
@@ -65,7 +65,7 @@ python3 main.py
 - Patch all possible Security Issues and involvement of real encryption/decryption algorithms
 - Improve UI/design
 - Use of an alternate package to handle Binary Files or implementation of an alternative method to store encryption/decryption keys
-- The password to the Admin-Mode should <b>not</b> be hard-coded into the file
+- The password to the Admin-Mode should **not** be hard-coded into the file
 - Branch the project, wherein the Admin-Mode will be removed
 - Make the code more modular
 - Better and more professional type-hinting
